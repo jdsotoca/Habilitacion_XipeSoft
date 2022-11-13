@@ -25,7 +25,7 @@ public class Users {
     public Users() {
     }
 
-    public Users(long id, String email, String task, String profile, String password, Collection<Profile> profiles) {
+    public Users(Long id, String email, String task, String profile, String password, Collection<Profile> profiles) {
         this.id = id;
         this.email = email;
         this.task = task;
