@@ -12,13 +12,24 @@
 	<artifactId>xipe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>xipe</name>
+<<<<<<< HEAD
 	<description>Proyecto de habilitación Spring Boot</description>
+=======
+	<description>aplicacion web gestion de tareas</description>
+>>>>>>> a0528452efdcc3debad3a4aaf7366b876749ba12
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> a0528452efdcc3debad3a4aaf7366b876749ba12
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
@@ -27,6 +38,7 @@
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
@@ -34,6 +46,10 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
+=======
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+>>>>>>> a0528452efdcc3debad3a4aaf7366b876749ba12
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -41,6 +57,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -56,6 +73,19 @@
 		</dependency>
 
 
+=======
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+>>>>>>> a0528452efdcc3debad3a4aaf7366b876749ba12
 	</dependencies>
 
 	<build>
