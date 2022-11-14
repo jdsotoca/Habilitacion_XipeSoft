@@ -1,5 +1,4 @@
-![ logotipo ](https://user-images.githubusercontent.com/103220491/200727009-a1555bf6-ac80-4ea1-b848-5a665a69ed57.png)
-
+![ logotipo ](https://user-images.githubusercontent.com/103220491/201753680-6611f416-ad76-46da-afdf-eb386d3e80f8.png)
 
 # Habilitacion_XipeSoft
 
