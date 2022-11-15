@@ -1,49 +1,36 @@
 package com.xipesoft.xipe.entities;
 
-import javax.persistence.*;
+import com.xipesoft.xipe.enums.Enum_StateTask;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import javax.persistence.*;
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(name="tasks")
 public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
+
     @Column(name = "title")
     public String title;
+
     @Column(name = "description")
     public String description;
 
-    public Task() {
-    }
+    @Enumerated(EnumType.STRING)
+    @Column(name="states_id")
+    private Enum_StateTask states;
 
-    public Task(Long id, String title, String description) {
-        this.id = id;
-        this.title = title;
-        this.description = description;
-    }
 
-    public Long getId() {
-        return this.id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return this.title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return this.description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    @ManyToOne
+    @JoinColumn(name = "users_id")
+    private Users users;
 
 }
