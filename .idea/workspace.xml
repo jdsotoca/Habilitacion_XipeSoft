@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a4f7f3-9b00-4fd3-b6f3-efb213738466" name="Changes" comment="Creacion de entidades profile y task, creacion de repositorios.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/controllers/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/dto/ProfileDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/dto/TaskDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/dto/UsersDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/servicies/ProfileServicies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/servicies/UserServicies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b1a4f7f3-9b00-4fd3-b6f3-efb213738466" name="Changes" comment="Creacion de entidades profile y task, creacion de repositorios. y crud de login * aun no funcional*">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/entities/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/entities/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/entities/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/entities/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/entities/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/enums/Enum_StateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/enums/Enum_StateTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/repositories/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/XipeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/XipeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/entities/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/entities/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/entities/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/entities/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/entities/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/entities/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/enums/Enum_StateTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xipesoft/xipe/enums/Enum_StateTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +18,16 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/xipesoft/xipe/XipeApplication.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -60,7 +41,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -84,17 +65,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/poppe/Documents/Mintic/Sprint3/tienda",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.haulmont.jpb.dbDrivers"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jalg_/Documents/workspace-public/Habilitacion_XipeSoft&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.postgresql.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jalg_\Documents\workspace-public\Habilitacion_XipeSoft\src\main\resources" />
+      <recent name="C:\Users\jalg_\Documents\workspace-public\Habilitacion_XipeSoft\src\main\resources\static" />
+      <recent name="C:\Users\jalg_\Documents\workspace-public\Habilitacion_XipeSoft\src\main\resources\static\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="XipeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
@@ -126,11 +118,51 @@
       <option name="presentableId" value="Default" />
       <updated>1667964082204</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creacion de entidades profile y task, creacion de repositorios. y crud de login * aun no funcional*">
+      <created>1668785043340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668785043340</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creacion de entidades profile y task, creacion de repositorios. y crud de login * aun no funcional*">
+      <created>1668785578386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668785578386</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="88e2ebbd-a76b-4dfe-9d43-cea91629291f">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/jalg_/Documents/workspace-public/Habilitacion_XipeSoft/src/main/java/org/postgresql/util" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -138,9 +170,15 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="88e2ebbd-a76b-4dfe-9d43-cea91629291f" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de entidades profile y task, creacion de repositorios." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de entidades profile y task, creacion de repositorios." />
+    <MESSAGE value="Creacion de entidades profile y task, creacion de repositorios. y crud de login * aun no funcional*" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de entidades profile y task, creacion de repositorios. y crud de login * aun no funcional*" />
   </component>
 </project>

@@ -1,13 +1,10 @@
 package com.xipesoft.xipe.servicies;
 
-import com.xipesoft.xipe.dto.UsersDto;
-import com.xipesoft.xipe.entities.Profile;
 import com.xipesoft.xipe.entities.Users;
 import com.xipesoft.xipe.repositories.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 

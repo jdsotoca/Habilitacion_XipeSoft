@@ -22,7 +22,7 @@ public class UserController{
 
         this.userServicies = userServicies;
     }*/
-    @GetMapping("/user")
+    @GetMapping("/users")
     public ResponseEntity<List<Users>> listaUsers(){
         List<Users> users = userServicies.verUsers();
         return new ResponseEntity<List<Users>>(users, HttpStatus.OK);
